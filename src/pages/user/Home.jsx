@@ -74,7 +74,7 @@ const Home = () => {
   useEffect(() => {
     const timer = setInterval(() => {
       setIndex((prev) => prev + 1);
-    }, 5000);
+    }, 3000);
 
     return () => clearInterval(timer);
   }, []);
