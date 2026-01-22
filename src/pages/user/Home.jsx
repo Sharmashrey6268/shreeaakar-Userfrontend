@@ -13,7 +13,6 @@ import WhyUs from "./WhyUs";
 // Desktop images
 import hero1 from "../../assets/hero/hero1.png";
 import hero2 from "../../assets/hero/hero2.png";
-import hero3 from "../../assets/hero/hero3.png";
 import hero4 from "../../assets/hero/hero4.jpeg";
 import hero5 from "../../assets/hero/hero5.jpeg";
 import hero6 from "../../assets/hero/hero6.jpeg";
@@ -23,12 +22,11 @@ import hero8 from "../../assets/hero/hero8.jpeg";
 // Mobile images
 import hero1mobile from "../../assets/hero/hero1-mobile.jpeg";
 import hero2mobile from "../../assets/hero/hero2-mobile.jpeg";
-import hero3mobile from "../../assets/hero/hero3-mobile.png";
+import hero3mobile from "../../assets/hero/hero3-mobile.jpeg";
 
 const desktopImages = [
   hero1,
   hero2,
-  hero3,
   hero4,
   hero5,
   hero6,
