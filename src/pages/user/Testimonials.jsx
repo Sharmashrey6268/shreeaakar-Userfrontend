@@ -14,7 +14,7 @@ const testimonials = [
   {
     text:
       "Working with Shree AAKAR was seamless for our boutique bakery, Flourish. The design embraced natural light and earthy tones, letting our fresh bakes shine. It's warm, inviting, and pulls customers back every day.",
-    name: "Flourish Bakers",
+    name: "Ashok Kumar Sharma",
   },
 ];
 

@@ -18,6 +18,7 @@ import hero5 from "../../assets/hero/hero5.jpeg";
 import hero6 from "../../assets/hero/hero6.jpeg";
 import hero7 from "../../assets/hero/hero7.jpeg";
 import hero8 from "../../assets/hero/hero8.jpeg";
+import hero9 from "../../assets/hero/hero9.jpeg";
 
 // Mobile images
 import hero1mobile from "../../assets/hero/hero1-mobile.jpeg";
@@ -32,12 +33,14 @@ const desktopImages = [
   hero6,
   hero7,
   hero8,
+  hero9,
 ];
 
 const mobileImages = [
   hero1mobile,
   hero2mobile,
   hero3mobile,
+  hero9,
 ];
 
 /* ================= REUSABLE SECTION ================= */
@@ -124,14 +127,14 @@ const Home = () => {
         <div className="absolute inset-0 md:hidden">
           <AnimatePresence mode="wait">
             <motion.img
-              key={`mobile-${index}`}
-              src={mobileImages[index % mobileImages.length]}
-              className="absolute inset-0 w-full h-full object-cover"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              transition={{ duration: 1 }}
-            />
+  key={`mobile-${index}`}
+  src={mobileImages[index % mobileImages.length]}
+  className="absolute inset-0 w-full h-full object-contain bg-black"
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  exit={{ opacity: 0 }}
+  transition={{ duration: 1 }}
+/>
           </AnimatePresence>
         </div>
 
@@ -141,7 +144,7 @@ const Home = () => {
             <motion.img
               key={`desktop-${index}`}
               src={desktopImages[index % desktopImages.length]}
-              className="absolute inset-0 w-full h-full object-cover"
+              className="absolute inset-0 w-full h-full object-contain bg-white"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
