@@ -58,7 +58,7 @@ const WhyUs = () => {
         className="
           font-serif
           text-2xl
-          md:text-3xl
+          md:text-4xl
           text-[#2C1810]
           mb-12
           md:mb-16
